@@ -8,6 +8,8 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
+  name: BloodBankAgent-pool
+
 
 steps:
 - task: ArchiveFiles@2
